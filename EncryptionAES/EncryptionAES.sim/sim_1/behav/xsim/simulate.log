@@ -1,0 +1,7 @@
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+ERROR: Index -2147483648 out of bound 0 to 255
+Time: 0 ps  Iteration: 0  Process: /test/aes/BytesSubstitution/sbox_33/line__42
+  File: C:/Users/Utilizador/VivadoProjects/EncryptionAES/EncryptionAES.srcs/sources_1/new/SubBox.vhd
+
+HDL Line: C:/Users/Utilizador/VivadoProjects/EncryptionAES/EncryptionAES.srcs/sources_1/new/SubBox.vhd:42

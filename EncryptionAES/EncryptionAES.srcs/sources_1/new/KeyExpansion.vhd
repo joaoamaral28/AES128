@@ -2,9 +2,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity KeyExpansion is
-
-    Port( clk : in std_logic;
-          cipherKey : in std_logic_vector(127 downto 0);
+    Port( cipherKey : in std_logic_vector(127 downto 0);
           roundKeys : out std_logic_vector(155 downto 0));
 end KeyExpansion;
 
@@ -14,7 +12,6 @@ architecture Behavioral of KeyExpansion is
 begin
     -- copy key into first 4 words of expanded key
     expandedKey(127 downto 0) <= cipherKey;
-    process(clk)
     begin
     
     

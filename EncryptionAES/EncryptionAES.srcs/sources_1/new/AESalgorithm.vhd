@@ -3,6 +3,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 library work;
 use work.DataTypes.all;
+use work.AuxFunctions.all;
 
 entity AESalgorithm is
     Port ( --clk : in std_logic;
@@ -13,24 +14,25 @@ end AESalgorithm;
 
 architecture Behavioral of AESalgorithm is
     signal s_out_initalAddRoundKey : Matrix;
-    signal s_vec_to_mat : Matrix;
-    
-    component vector_to_matrix is 
-        port ( in_vec : in std_logic_vector(127 downto 0);
-               mat : out Matrix);
-    end component vector_to_matrix;    
-    
+    signal in_state : Matrix; 
+    signal r1_sb : Matrix;
 begin
-    --! Initial addRoundKey step !--
     -- Convert plainTextBlock bits to Matrix data type
-    vec_to_matrix : vector_to_matrix
-    port map ( in_vec => plainTextBlock, 
-               mat => s_vec_to_mat);               
+    in_state <= vector_to_matrix(plainTextBlock);  
+       
+    --! Initial addRoundKey step !--                 
     InitialAddRoundKey: entity work.AddRoundKey(Behavioral)
-                port map ( in_state => s_vec_to_mat,
+                port map ( in_state  => in_state,
                            round_key => cipherKey,
                            out_state => s_out_initalAddRoundKey );                
     --! End initial addRoundKey step !--            
+    
+    --!  Round 1 Start !--
+    BytesSubstitution : entity work.SubBytes(Behavioral)
+                port map (in_state  =>  s_out_initalAddRoundKey,
+                          out_state => r1_sb);
+
+    --!  Round 1 End   !--    
     
     -- 1. Key Expansions
     
