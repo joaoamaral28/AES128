@@ -2,10 +2,7 @@
 vhdl xil_defaultlib  \
 "../../../../EncryptionAES.srcs/sources_1/new/DataTypes.vhd" \
 "../../../../EncryptionAES.srcs/sources_1/new/AuxFunctions.vhd" \
-"../../../../EncryptionAES.srcs/sources_1/new/AddRoundKey.vhd" \
-"../../../../EncryptionAES.srcs/sources_1/new/SubBytes.vhd" \
-"../../../../EncryptionAES.srcs/sources_1/new/AESalgorithm.vhd" \
-"../../../../EncryptionAES.srcs/sources_1/new/SubBox.vhd" \
+"../../../../EncryptionAES.srcs/sources_1/new/KeyExpansion.vhd" \
 "../../../../EncryptionAES.srcs/sim_1/new/test.vhd" \
 
 # Do not sort compile order
