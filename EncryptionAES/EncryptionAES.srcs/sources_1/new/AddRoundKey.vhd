@@ -38,6 +38,5 @@ begin
     out_state(3)(3) <= in_state(3)(3) xor round_key(7 downto 0);
 
     --out_state <= matrix_vec_xor(in_state,round_key);
-       
-       
+        
 end Behavioral;

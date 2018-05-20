@@ -42,52 +42,75 @@ architecture Behavioral of KeyExpansion is
     constant rcon : rconArray := ( X"01", X"02", X"04", X"08", X"10",
                                    X"20", X"40", X"80", X"1B", X"36");
     type expandedKeyWordArray is array (0 to 43) of std_logic_vector(31 downto 0);    
-    signal expandedKey : expandedKeyWordArray := (others => X"00000000");
-    signal tmpWord : std_logic_vector(31 downto 0);
-    signal tmpIdx : integer range 0 to 43;
-    signal rconIdx: integer range 0 to 9;
-    signal rotWord : std_logic_vector(31 downto 0);
-    signal subWord : std_logic_vector(31 downto 0);
-    signal index0, index1, index2, index3 : integer range 0 to 255;
+    --signal expandedKey : expandedKeyWordArray := (others => X"00000000");
+    --signal tmpWord : std_logic_vector(31 downto 0);
+    --signal tmpIdx : integer range 0 to 43; 
+    --signal rconIdx: integer range 0 to 9 := 0;
+    --signal rotWord : std_logic_vector(31 downto 0);
+    --signal subWord : std_logic_vector(31 downto 0);
+    --signal index0, index1, index2, index3 : integer range 0 to 255;
+    --signal subWordRcon : std_logic_vector(31 downto 0);
+    --signal auxWord : std_logic_vector(31 downto 0);
+    --signal auxIdx : integer range 0 to 43;
 begin
     process(clk)
+    
+    variable expandedKey : expandedKeyWordArray := (others => X"00000000");
+    variable tmpWord : std_logic_vector(31 downto 0);
+    variable rotWord : std_logic_vector(31 downto 0);
+    variable subWord : std_logic_vector(31 downto 0);
+    variable subWordRcon : std_logic_vector(31 downto 0);
+    variable auxWord : std_logic_vector(31 downto 0);
+    variable tmpIdx : integer range 0 to 43; 
+    variable rconIdx: integer range 0 to 9 := 0;
+    variable index0, index1, index2, index3 : integer range 0 to 255;
+    variable auxIdx : integer range 0 to 43;
+    
     begin
     -- first 4 words of the expanded key is equal to the cipher key
-    expandedKey(0) <= cipherKey(127 downto 96); -- w0
-    expandedKey(1) <= cipherKey(95 downto 64);  -- w1
-    expandedKey(2) <= cipherKey(63 downto 32);  -- w2
-    expandedKey(3) <= cipherKey(31 downto 0);   -- w3
+    expandedKey(0) := cipherKey(127 downto 96); -- w0
+    expandedKey(1) := cipherKey(95 downto 64);  -- w1
+    expandedKey(2) := cipherKey(63 downto 32);  -- w2
+    expandedKey(3) := cipherKey(31 downto 0);   -- w3
     
     keys_generation: -- generate the remaining keys word by word
-    for i in 4 to 4 loop--expandedKeyWordArray'length-1 loop
-        tmpIdx <= i - 4; 
-        tmpWord <= expandedKey(tmpIdx);
+    for i in 4 to expandedKeyWordArray'length-1 loop
+        tmpIdx := i - 1; 
+        tmpWord := expandedKey(tmpIdx);
         if(i mod 4 = 0) then
             -- Rotation of word w[i-1]
-            rotWord <= tmpWord(23 downto 0) & tmpWord(31 downto 24);
+            rotWord := tmpWord(23 downto 0) & tmpWord(31 downto 24);
             -- index calculation  from rotWord bytes
-            index0 <= (to_integer(unsigned(rotWord(31 downto 28)))*16) + to_integer(unsigned(rotWord(27 downto 24)));
-            index1 <= (to_integer(unsigned(rotWord(23 downto 20)))*16) + to_integer(unsigned(rotWord(19 downto 16)));
-            index2 <= (to_integer(unsigned(rotWord(15 downto 12)))*16) + to_integer(unsigned(rotWord(11 downto 8)));
-            index3 <= (to_integer(unsigned(rotWord(7 downto 4)))*16)   + to_integer(unsigned(rotWord(3 downto 0)));
+            index0 := (to_integer(unsigned(rotWord(31 downto 28)))*16) + to_integer(unsigned(rotWord(27 downto 24)));
+            index1 := (to_integer(unsigned(rotWord(23 downto 20)))*16) + to_integer(unsigned(rotWord(19 downto 16)));
+            index2 := (to_integer(unsigned(rotWord(15 downto 12)))*16) + to_integer(unsigned(rotWord(11 downto 8)));
+            index3 := (to_integer(unsigned(rotWord(7 downto 4)))*16)   + to_integer(unsigned(rotWord(3 downto 0)));
             -- SubBytes of rotWord
-            rconIdx <= i - 4;
-            subWord <= (rcon(rconIdx) xor SubBoxMem(index0)) & SubBoxMem(index1) & SubBoxMem(index2) & SubBoxMem(index3);
+            rconIdx := (i / 4) - 1;
+            subWord := SubBoxMem(index0) & SubBoxMem(index1) & SubBoxMem(index2) & SubBoxMem(index3);
+            subWordRcon := (SubBoxMem(index0) xor rcon(rconIdx)) & SubBoxMem(index1) & SubBoxMem(index2) & SubBoxMem(index3);  
+            auxIdx := i - 4;
+            auxWord := expandedKey(auxIdx);
+            expandedKey(i) := auxWord xor subWordRcon; 
+        else
+            auxIdx := i - 4;
+            auxWord := expandedKey(auxIdx);
+            expandedKey(i) := auxWord xor tmpWord;            
         end if;
-        expandedKey(i) <= expandedKey(i-4) xor tmpWord;
+
     end loop; 
        
-    roundKeys(0) <= expandedKey(3) & expandedKey(2) & expandedKey(1) & expandedKey(0);
-    roundKeys(1) <= expandedKey(7) & expandedKey(6) & expandedKey(5) & expandedKey(4);
-    roundKeys(2) <= expandedKey(11) & expandedKey(10) & expandedKey(9) & expandedKey(8);
-    roundKeys(3) <= expandedKey(15) & expandedKey(14) & expandedKey(13) & expandedKey(12);
-    roundKeys(4) <= expandedKey(19) & expandedKey(18) & expandedKey(17) & expandedKey(16);
-    roundKeys(5) <= expandedKey(23) & expandedKey(22) & expandedKey(21) & expandedKey(20);
-    roundKeys(6) <= expandedKey(27) & expandedKey(26) & expandedKey(25) & expandedKey(24);
-    roundKeys(7) <= expandedKey(31) & expandedKey(30) & expandedKey(29) & expandedKey(28);
-    roundKeys(8) <= expandedKey(35) & expandedKey(34) & expandedKey(33) & expandedKey(32);
-    roundKeys(9) <= expandedKey(39) & expandedKey(38) & expandedKey(37) & expandedKey(36);
-    roundKeys(10)<= expandedKey(43) & expandedKey(42) & expandedKey(41) & expandedKey(40);
+    roundKeys(0) <= expandedKey(0) & expandedKey(1) & expandedKey(2) & expandedKey(3);
+    roundKeys(1) <= expandedKey(4) & expandedKey(5) & expandedKey(6) & expandedKey(7);
+    roundKeys(2) <= expandedKey(8) & expandedKey(9) & expandedKey(10) & expandedKey(11);
+    roundKeys(3) <= expandedKey(12) & expandedKey(13) & expandedKey(14) & expandedKey(15);
+    roundKeys(4) <= expandedKey(16) & expandedKey(17) & expandedKey(18) & expandedKey(19);
+    roundKeys(5) <= expandedKey(20) & expandedKey(21) & expandedKey(22) & expandedKey(23);
+    roundKeys(6) <= expandedKey(24) & expandedKey(25) & expandedKey(26) & expandedKey(27);
+    roundKeys(7) <= expandedKey(28) & expandedKey(29) & expandedKey(30) & expandedKey(31);
+    roundKeys(8) <= expandedKey(32) & expandedKey(33) & expandedKey(34) & expandedKey(35);
+    roundKeys(9) <= expandedKey(36) & expandedKey(37) & expandedKey(38) & expandedKey(39);
+    roundKeys(10)<= expandedKey(40) & expandedKey(41) & expandedKey(42) & expandedKey(43);
     
     end process;
     
