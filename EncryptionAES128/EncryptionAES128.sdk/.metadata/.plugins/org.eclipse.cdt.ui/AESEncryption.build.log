@@ -1,0 +1,47 @@
+18:34:42 **** Auto Build of configuration Debug for project AESEncryption ****
+make all 
+'Building file: ../src/Encryption.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -l -Wall -O0 -g3 -IC:\OpenSSL-Win64\include -c -fmessage-length=0 -MT"src/Encryption.o" -I../../AESEncryption_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Encryption.d" -MT"src/Encryption.o" -o "src/Encryption.o" "../src/Encryption.c"
+In file included from ../src/Encryption.c:51:0:
+../../AESEncryption_bsp/microblaze_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../AESEncryption_bsp/microblaze_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+In file included from ../../AESEncryption_bsp/microblaze_0/include/xuartlite.h:164:0,
+                 from ../src/Encryption.c:55:
+../src/Encryption.c: In function 'receiveFromUART':
+../../AESEncryption_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/Encryption.c:72:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/Encryption.c:66:6: note: declared here
+ void receiveFromUART(char* buffer){
+      ^~~~~~~~~~~~~~~
+../src/Encryption.c:79:10: warning: implicit declaration of function 'XUartLite_RecvByte' [-Wimplicit-function-declaration]
+   byte = XUartLite_RecvByte(XPAR_AXI_UARTLITE_0_BASEADDR);
+          ^~~~~~~~~~~~~~~~~~
+../src/Encryption.c: In function 'main':
+../src/Encryption.c:104:5: warning: implicit declaration of function 'md5' [-Wimplicit-function-declaration]
+     md5((uint8_t)* password,len, digest);
+     ^~~
+'Finished building: ../src/Encryption.c'
+' '
+'Building target: AESEncryption.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -L../../AESEncryption_bsp/microblaze_0/lib -Wl,-T -Wl,../src/lscript.ld -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "AESEncryption.elf"  ./src/Encryption.o ./src/md5.o ./src/platform.o   
+'Finished building target: AESEncryption.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size AESEncryption.elf  |tee "AESEncryption.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20108	   1336	   3252	  24696	   6078	AESEncryption.elf
+'Finished building: AESEncryption.elf.size'
+' '
+
+18:34:43 Build Finished (took 1s.98ms)
+

@@ -1,0 +1,695 @@
+
+*** Running vivado
+    with args -log design_1_AES128_IP_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_AES128_IP_0_0.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source design_1_AES128_IP_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 301.703 ; gain = 74.988
+Command: synth_design -top design_1_AES128_IP_0_0 -part xc7a100tcsg324-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 4084 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 424.273 ; gain = 96.891
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_AES128_IP_0_0' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ip/design_1_AES128_IP_0_0/synth/design_1_AES128_IP_0_0.vhd:82]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'AES128_IP_v1_0' declared at 'c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AES128_IP_v1_0.vhd:5' bound to instance 'U0' of component 'AES128_IP_v1_0' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ip/design_1_AES128_IP_0_0/synth/design_1_AES128_IP_0_0.vhd:147]
+INFO: [Synth 8-638] synthesizing module 'AES128_IP_v1_0' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AES128_IP_v1_0.vhd:49]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'AES128_IP_v1_0_S00_AXI' declared at 'c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AES128_IP_v1_0_S00_AXI.vhd:5' bound to instance 'AES128_IP_v1_0_S00_AXI_inst' of component 'AES128_IP_v1_0_S00_AXI' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AES128_IP_v1_0.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'AES128_IP_v1_0_S00_AXI' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AES128_IP_v1_0_S00_AXI.vhd:86]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-226] default block is never used [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AES128_IP_v1_0_S00_AXI.vhd:261]
+INFO: [Synth 8-226] default block is never used [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AES128_IP_v1_0_S00_AXI.vhd:499]
+INFO: [Synth 8-3491] module 'AES' declared at 'c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AES.vhd:24' bound to instance 'AESAlg' of component 'AES' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AES128_IP_v1_0_S00_AXI.vhd:561]
+INFO: [Synth 8-638] synthesizing module 'AES' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AES.vhd:32]
+INFO: [Synth 8-638] synthesizing module 'vectorToMatrix' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/vectorToMatrix.vhd:13]
+WARNING: [Synth 8-614] signal 'in_vec' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/vectorToMatrix.vhd:16]
+WARNING: [Synth 8-614] signal 'mat' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/vectorToMatrix.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'vectorToMatrix' (1#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/vectorToMatrix.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'KeyExpansion' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/KeyExpansion.vhd:16]
+WARNING: [Synth 8-614] signal 'cipherKey' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/KeyExpansion.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'KeyExpansion' (2#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/KeyExpansion.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'AddRoundKey' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AddRoundKey.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'AddRoundKey' (3#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AddRoundKey.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'SubBytes' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/SubBytes.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'SubBytes' (4#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/SubBytes.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'RowShifter' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/RowShifter.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'RowShifter' (5#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/RowShifter.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'MixColumns' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/MixColumns.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'MixColumns' (6#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/MixColumns.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'MatrixToVector' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/MatrixToVector.vhd:11]
+WARNING: [Synth 8-614] signal 'in_mat' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/MatrixToVector.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'MatrixToVector' (7#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/MatrixToVector.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'AES' (8#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AES.vhd:32]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg8_reg was removed.  [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AES128_IP_v1_0_S00_AXI.vhd:250]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg9_reg was removed.  [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AES128_IP_v1_0_S00_AXI.vhd:251]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg10_reg was removed.  [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AES128_IP_v1_0_S00_AXI.vhd:252]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg11_reg was removed.  [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AES128_IP_v1_0_S00_AXI.vhd:253]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg12_reg was removed.  [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AES128_IP_v1_0_S00_AXI.vhd:254]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AES128_IP_v1_0_S00_AXI.vhd:259]
+INFO: [Synth 8-256] done synthesizing module 'AES128_IP_v1_0_S00_AXI' (9#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AES128_IP_v1_0_S00_AXI.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'AES128_IP_v1_0' (10#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/c8d8/hdl/AES128_IP_v1_0.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'design_1_AES128_IP_0_0' (11#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ip/design_1_AES128_IP_0_0/synth/design_1_AES128_IP_0_0.vhd:82]
+WARNING: [Synth 8-3331] design MatrixToVector has unconnected port clk
+WARNING: [Synth 8-3331] design KeyExpansion has unconnected port clk
+WARNING: [Synth 8-3331] design vectorToMatrix has unconnected port clk
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 527.148 ; gain = 199.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 527.148 ; gain = 199.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 527.148 ; gain = 199.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:27 . Memory (MB): peak = 689.953 ; gain = 362.570
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 40    
+	   2 Input      8 Bit         XORs := 186   
+	   4 Input      8 Bit         XORs := 144   
++---Registers : 
+	               32 Bit    Registers := 12    
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 11    
+	  16 Input     32 Bit        Muxes := 11    
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module KeyExpansion 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 40    
+	   2 Input      8 Bit         XORs := 10    
+Module AddRoundKey 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      8 Bit         XORs := 16    
+Module MixColumns 
+Detailed RTL Component Info : 
++---XORs : 
+	   4 Input      8 Bit         XORs := 16    
+Module AES128_IP_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 12    
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 11    
+	  16 Input     32 Bit        Muxes := 11    
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design KeyExpansion has unconnected port clk
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\U0/AES128_IP_v1_0_S00_AXI_inst/aw_en_reg )
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'U0/AES128_IP_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/AES128_IP_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'U0/AES128_IP_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/AES128_IP_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3332] Sequential element (U0/AES128_IP_v1_0_S00_AXI_inst/aw_en_reg) is unused and will be removed from module design_1_AES128_IP_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/AES128_IP_v1_0_S00_AXI_inst/axi_bresp_reg[1]) is unused and will be removed from module design_1_AES128_IP_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/AES128_IP_v1_0_S00_AXI_inst/axi_awaddr_reg[1]) is unused and will be removed from module design_1_AES128_IP_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/AES128_IP_v1_0_S00_AXI_inst/axi_awaddr_reg[0]) is unused and will be removed from module design_1_AES128_IP_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/AES128_IP_v1_0_S00_AXI_inst/axi_araddr_reg[1]) is unused and will be removed from module design_1_AES128_IP_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/AES128_IP_v1_0_S00_AXI_inst/axi_araddr_reg[0]) is unused and will be removed from module design_1_AES128_IP_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/AES128_IP_v1_0_S00_AXI_inst/axi_rresp_reg[1]) is unused and will be removed from module design_1_AES128_IP_0_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:46 ; elapsed = 00:01:57 . Memory (MB): peak = 909.781 ; gain = 582.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-------------+--------------+---------------+----------------+
+|Module Name  | RTL Object   | Depth x Width | Implemented As | 
++-------------+--------------+---------------+----------------+
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
++-------------+--------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:50 ; elapsed = 00:02:02 . Memory (MB): peak = 909.781 ; gain = 582.398
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:59 ; elapsed = 00:02:11 . Memory (MB): peak = 909.781 ; gain = 582.398
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:01 ; elapsed = 00:02:13 . Memory (MB): peak = 909.781 ; gain = 582.398
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:01 ; elapsed = 00:02:13 . Memory (MB): peak = 909.781 ; gain = 582.398
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:03 ; elapsed = 00:02:15 . Memory (MB): peak = 909.781 ; gain = 582.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:20 ; elapsed = 00:02:32 . Memory (MB): peak = 909.781 ; gain = 582.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:20 ; elapsed = 00:02:32 . Memory (MB): peak = 909.781 ; gain = 582.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:20 ; elapsed = 00:02:32 . Memory (MB): peak = 909.781 ; gain = 582.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     1|
+|2     |LUT2  |   303|
+|3     |LUT3  |   186|
+|4     |LUT4  |   596|
+|5     |LUT5  |   792|
+|6     |LUT6  |  7733|
+|7     |MUXF7 |  3092|
+|8     |MUXF8 |  1336|
+|9     |FDRE  |   393|
+|10    |FDSE  |     4|
++------+------+------+
+
+Report Instance Areas: 
++------+--------------------------------+-----------------------+------+
+|      |Instance                        |Module                 |Cells |
++------+--------------------------------+-----------------------+------+
+|1     |top                             |                       | 14436|
+|2     |  U0                            |AES128_IP_v1_0         | 14436|
+|3     |    AES128_IP_v1_0_S00_AXI_inst |AES128_IP_v1_0_S00_AXI | 14433|
+|4     |      AESAlg                    |AES                    |  4400|
+|5     |        BytesSubstitutionR1     |SubBytes               |   384|
+|6     |        BytesSubstitutionR10    |SubBytes_0             |   384|
+|7     |        BytesSubstitutionR2     |SubBytes_1             |   384|
+|8     |        BytesSubstitutionR3     |SubBytes_2             |   384|
+|9     |        BytesSubstitutionR4     |SubBytes_3             |   384|
+|10    |        BytesSubstitutionR5     |SubBytes_4             |   384|
+|11    |        BytesSubstitutionR6     |SubBytes_5             |   384|
+|12    |        BytesSubstitutionR7     |SubBytes_6             |   384|
+|13    |        BytesSubstitutionR8     |SubBytes_7             |   384|
+|14    |        BytesSubstitutionR9     |SubBytes_8             |   384|
+|15    |        KeyExpansion            |KeyExpansion           |   560|
++------+--------------------------------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:20 ; elapsed = 00:02:32 . Memory (MB): peak = 909.781 ; gain = 582.398
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 26 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:20 ; elapsed = 00:02:32 . Memory (MB): peak = 909.781 ; gain = 582.398
+Synthesis Optimization Complete : Time (s): cpu = 00:02:20 ; elapsed = 00:02:32 . Memory (MB): peak = 909.781 ; gain = 582.398
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 4428 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+48 Infos, 26 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:30 ; elapsed = 00:02:44 . Memory (MB): peak = 909.781 ; gain = 593.871
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.runs/design_1_AES128_IP_0_0_synth_1/design_1_AES128_IP_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1319.930 ; gain = 410.148
+write_vhdl: Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1322.598 ; gain = 0.809

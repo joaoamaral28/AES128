@@ -1,0 +1,1100 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed May 30 00:40:52 2018
+# Process ID: 4772
+# Current directory: C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.runs/design_1_AES128_IP_0_0_synth_1
+# Command line: vivado.exe -log design_1_AES128_IP_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_AES128_IP_0_0.tcl
+# Log file: C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.runs/design_1_AES128_IP_0_0_synth_1/design_1_AES128_IP_0_0.vds
+# Journal file: C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.runs/design_1_AES128_IP_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_AES128_IP_0_0.tcl -notrace
+Command: synth_design -top design_1_AES128_IP_0_0 -part xc7a100tcsg324-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2824 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 426.621 ; gain = 100.059
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_AES128_IP_0_0' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ip/design_1_AES128_IP_0_0/synth/design_1_AES128_IP_0_0.vhd:82]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'AES128_IP_v1_0' declared at 'c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AES128_IP_v1_0.vhd:5' bound to instance 'U0' of component 'AES128_IP_v1_0' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ip/design_1_AES128_IP_0_0/synth/design_1_AES128_IP_0_0.vhd:147]
+INFO: [Synth 8-638] synthesizing module 'AES128_IP_v1_0' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AES128_IP_v1_0.vhd:49]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'AES128_IP_v1_0_S00_AXI' declared at 'c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AES128_IP_v1_0_S00_AXI.vhd:5' bound to instance 'AES128_IP_v1_0_S00_AXI_inst' of component 'AES128_IP_v1_0_S00_AXI' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AES128_IP_v1_0.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'AES128_IP_v1_0_S00_AXI' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AES128_IP_v1_0_S00_AXI.vhd:86]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-226] default block is never used [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AES128_IP_v1_0_S00_AXI.vhd:261]
+INFO: [Synth 8-226] default block is never used [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AES128_IP_v1_0_S00_AXI.vhd:499]
+INFO: [Synth 8-3491] module 'AES' declared at 'c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AES.vhd:24' bound to instance 'AESAlg' of component 'AES' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AES128_IP_v1_0_S00_AXI.vhd:561]
+INFO: [Synth 8-638] synthesizing module 'AES' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AES.vhd:32]
+INFO: [Synth 8-638] synthesizing module 'vectorToMatrix' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:15]
+WARNING: [Synth 8-614] signal 'in_vec' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:18]
+WARNING: [Synth 8-614] signal 'mat' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'vectorToMatrix' (1#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'KeyExpansion' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/KeyExpansion.vhd:18]
+WARNING: [Synth 8-614] signal 'cipherKey' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/KeyExpansion.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'KeyExpansion' (2#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/KeyExpansion.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'AddRoundKey' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:18]
+WARNING: [Synth 8-614] signal 'in_state' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:20]
+WARNING: [Synth 8-614] signal 'round_key' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'AddRoundKey' (3#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'SubBytes' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:16]
+WARNING: [Synth 8-614] signal 'in_state' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:47]
+WARNING: [Synth 8-614] signal 'index00' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:47]
+WARNING: [Synth 8-614] signal 'index10' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:47]
+WARNING: [Synth 8-614] signal 'index20' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:47]
+WARNING: [Synth 8-614] signal 'index30' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:47]
+WARNING: [Synth 8-614] signal 'index01' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:47]
+WARNING: [Synth 8-614] signal 'index11' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:47]
+WARNING: [Synth 8-614] signal 'index21' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:47]
+WARNING: [Synth 8-614] signal 'index31' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:47]
+WARNING: [Synth 8-614] signal 'index02' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:47]
+WARNING: [Synth 8-614] signal 'index12' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:47]
+WARNING: [Synth 8-614] signal 'index22' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:47]
+WARNING: [Synth 8-614] signal 'index32' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:47]
+WARNING: [Synth 8-614] signal 'index03' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:47]
+WARNING: [Synth 8-614] signal 'index13' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:47]
+WARNING: [Synth 8-614] signal 'index23' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:47]
+WARNING: [Synth 8-614] signal 'index33' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'SubBytes' (4#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'RowShifter' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/RowShifter.vhd:21]
+WARNING: [Synth 8-614] signal 'in_state' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/RowShifter.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'RowShifter' (5#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/RowShifter.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'MixColumns' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:21]
+WARNING: [Synth 8-614] signal 'in_state' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte00_2' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte10_3' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte10_2' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte20_3' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte20_2' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte30_3' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte00_3' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte30_2' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte01_2' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte11_3' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte11_2' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte21_3' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte21_2' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte31_3' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte01_3' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte31_2' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte02_2' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte12_3' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte12_2' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte22_3' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte22_2' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte32_3' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte02_3' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte32_2' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte03_2' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte13_3' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte13_2' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte23_3' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte23_2' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte33_3' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte03_3' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'byte33_2' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+WARNING: [Synth 8-614] signal 'mixed_mat' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'MixColumns' (6#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MixColumns.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'MatrixToVector' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MatrixToVector.vhd:13]
+WARNING: [Synth 8-614] signal 'in_mat' is read in the process but is not in the sensitivity list [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MatrixToVector.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'MatrixToVector' (7#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/MatrixToVector.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'AES' (8#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AES.vhd:32]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg8_reg was removed.  [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AES128_IP_v1_0_S00_AXI.vhd:250]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg9_reg was removed.  [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AES128_IP_v1_0_S00_AXI.vhd:251]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg10_reg was removed.  [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AES128_IP_v1_0_S00_AXI.vhd:252]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg11_reg was removed.  [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AES128_IP_v1_0_S00_AXI.vhd:253]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg12_reg was removed.  [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AES128_IP_v1_0_S00_AXI.vhd:254]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AES128_IP_v1_0_S00_AXI.vhd:259]
+INFO: [Synth 8-256] done synthesizing module 'AES128_IP_v1_0_S00_AXI' (9#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AES128_IP_v1_0_S00_AXI.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'AES128_IP_v1_0' (10#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AES128_IP_v1_0.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'design_1_AES128_IP_0_0' (11#1) [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ip/design_1_AES128_IP_0_0/synth/design_1_AES128_IP_0_0.vhd:82]
+WARNING: [Synth 8-3331] design MatrixToVector has unconnected port clk
+WARNING: [Synth 8-3331] design AddRoundKey has unconnected port clk
+WARNING: [Synth 8-3331] design RowShifter has unconnected port clk
+WARNING: [Synth 8-3331] design SubBytes has unconnected port clk
+WARNING: [Synth 8-3331] design MixColumns has unconnected port clk
+WARNING: [Synth 8-3331] design KeyExpansion has unconnected port clk
+WARNING: [Synth 8-3331] design vectorToMatrix has unconnected port clk
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 532.266 ; gain = 205.703
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 532.266 ; gain = 205.703
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.277 . Memory (MB): peak = 874.602 ; gain = 4.172
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 874.602 ; gain = 548.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 874.602 ; gain = 548.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 874.602 ; gain = 548.039
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'valid_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:42]
+WARNING: [Synth 8-327] inferring latch for variable 'out_mat_reg[0][0]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:41]
+WARNING: [Synth 8-327] inferring latch for variable 'out_mat_reg[0][1]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:41]
+WARNING: [Synth 8-327] inferring latch for variable 'out_mat_reg[0][2]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:41]
+WARNING: [Synth 8-327] inferring latch for variable 'out_mat_reg[0][3]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:41]
+WARNING: [Synth 8-327] inferring latch for variable 'out_mat_reg[1][0]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:41]
+WARNING: [Synth 8-327] inferring latch for variable 'out_mat_reg[1][1]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:41]
+WARNING: [Synth 8-327] inferring latch for variable 'out_mat_reg[1][2]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:41]
+WARNING: [Synth 8-327] inferring latch for variable 'out_mat_reg[1][3]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:41]
+WARNING: [Synth 8-327] inferring latch for variable 'out_mat_reg[2][0]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:41]
+WARNING: [Synth 8-327] inferring latch for variable 'out_mat_reg[2][1]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:41]
+WARNING: [Synth 8-327] inferring latch for variable 'out_mat_reg[2][2]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:41]
+WARNING: [Synth 8-327] inferring latch for variable 'out_mat_reg[2][3]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:41]
+WARNING: [Synth 8-327] inferring latch for variable 'out_mat_reg[3][0]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:41]
+WARNING: [Synth 8-327] inferring latch for variable 'out_mat_reg[3][1]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:41]
+WARNING: [Synth 8-327] inferring latch for variable 'out_mat_reg[3][2]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:41]
+WARNING: [Synth 8-327] inferring latch for variable 'out_mat_reg[3][3]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:41]
+WARNING: [Synth 8-327] inferring latch for variable 'mat_reg[0][0]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:21]
+WARNING: [Synth 8-327] inferring latch for variable 'mat_reg[0][1]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:21]
+WARNING: [Synth 8-327] inferring latch for variable 'mat_reg[0][2]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:21]
+WARNING: [Synth 8-327] inferring latch for variable 'mat_reg[0][3]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:21]
+WARNING: [Synth 8-327] inferring latch for variable 'mat_reg[1][0]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:21]
+WARNING: [Synth 8-327] inferring latch for variable 'mat_reg[1][1]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:21]
+WARNING: [Synth 8-327] inferring latch for variable 'mat_reg[1][2]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:21]
+WARNING: [Synth 8-327] inferring latch for variable 'mat_reg[1][3]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:21]
+WARNING: [Synth 8-327] inferring latch for variable 'mat_reg[2][0]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:21]
+WARNING: [Synth 8-327] inferring latch for variable 'mat_reg[2][1]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:21]
+WARNING: [Synth 8-327] inferring latch for variable 'mat_reg[2][2]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:21]
+WARNING: [Synth 8-327] inferring latch for variable 'mat_reg[2][3]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:21]
+WARNING: [Synth 8-327] inferring latch for variable 'mat_reg[3][0]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:21]
+WARNING: [Synth 8-327] inferring latch for variable 'mat_reg[3][1]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:21]
+WARNING: [Synth 8-327] inferring latch for variable 'mat_reg[3][2]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:21]
+WARNING: [Synth 8-327] inferring latch for variable 'mat_reg[3][3]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/vectorToMatrix.vhd:21]
+WARNING: [Synth 8-327] inferring latch for variable 'valid_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/KeyExpansion.vhd:119]
+WARNING: [Synth 8-327] inferring latch for variable 'roundKeys_reg[0]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/KeyExpansion.vhd:107]
+WARNING: [Synth 8-327] inferring latch for variable 'roundKeys_reg[1]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/KeyExpansion.vhd:107]
+WARNING: [Synth 8-327] inferring latch for variable 'roundKeys_reg[2]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/KeyExpansion.vhd:107]
+WARNING: [Synth 8-327] inferring latch for variable 'roundKeys_reg[3]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/KeyExpansion.vhd:107]
+WARNING: [Synth 8-327] inferring latch for variable 'roundKeys_reg[4]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/KeyExpansion.vhd:107]
+WARNING: [Synth 8-327] inferring latch for variable 'roundKeys_reg[5]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/KeyExpansion.vhd:107]
+WARNING: [Synth 8-327] inferring latch for variable 'roundKeys_reg[6]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/KeyExpansion.vhd:107]
+WARNING: [Synth 8-327] inferring latch for variable 'roundKeys_reg[7]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/KeyExpansion.vhd:107]
+WARNING: [Synth 8-327] inferring latch for variable 'roundKeys_reg[8]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/KeyExpansion.vhd:107]
+WARNING: [Synth 8-327] inferring latch for variable 'roundKeys_reg[9]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/KeyExpansion.vhd:107]
+WARNING: [Synth 8-327] inferring latch for variable 'roundKeys_reg[10]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/KeyExpansion.vhd:107]
+WARNING: [Synth 8-327] inferring latch for variable 'valid_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:44]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[0][0]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:24]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[0][1]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:24]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[0][2]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:24]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[0][3]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:24]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[1][0]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:24]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[1][1]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:24]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[1][2]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:24]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[1][3]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:24]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[2][0]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:24]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[2][1]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:24]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[2][2]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:24]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[2][3]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:24]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[3][0]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:24]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[3][1]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:24]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[3][2]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:24]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[3][3]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/AddRoundKey.vhd:24]
+WARNING: [Synth 8-327] inferring latch for variable 'valid_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:91]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[0][0]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[0][1]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[0][2]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[0][3]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[1][0]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[1][1]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[1][2]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[1][3]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[2][0]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[2][1]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[2][2]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[2][3]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[3][0]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[3][1]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[3][2]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[3][3]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'index00_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:51]
+WARNING: [Synth 8-327] inferring latch for variable 'index01_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:56]
+WARNING: [Synth 8-327] inferring latch for variable 'index02_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:61]
+WARNING: [Synth 8-327] inferring latch for variable 'index03_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:66]
+WARNING: [Synth 8-327] inferring latch for variable 'index10_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:52]
+WARNING: [Synth 8-327] inferring latch for variable 'index11_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:57]
+WARNING: [Synth 8-327] inferring latch for variable 'index12_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:62]
+WARNING: [Synth 8-327] inferring latch for variable 'index13_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:67]
+WARNING: [Synth 8-327] inferring latch for variable 'index20_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:53]
+WARNING: [Synth 8-327] inferring latch for variable 'index21_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:58]
+WARNING: [Synth 8-327] inferring latch for variable 'index22_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:63]
+WARNING: [Synth 8-327] inferring latch for variable 'index23_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:68]
+WARNING: [Synth 8-327] inferring latch for variable 'index30_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:54]
+WARNING: [Synth 8-327] inferring latch for variable 'index31_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:59]
+WARNING: [Synth 8-327] inferring latch for variable 'index32_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:64]
+WARNING: [Synth 8-327] inferring latch for variable 'index33_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/SubBytes.vhd:69]
+WARNING: [Synth 8-327] inferring latch for variable 'valid_reg' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/RowShifter.vhd:46]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[0][0]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/RowShifter.vhd:27]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[0][1]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/RowShifter.vhd:27]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[0][2]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/RowShifter.vhd:27]
+WARNING: [Synth 8-327] inferring latch for variable 'out_state_reg[0][3]' [c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ipshared/0626/hdl/RowShifter.vhd:27]
+INFO: [Common 17-14] Message 'Synth 8-327' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 874.602 ; gain = 548.039
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 40    
+	   2 Input      8 Bit         XORs := 186   
+	   4 Input      8 Bit         XORs := 144   
++---Registers : 
+	               32 Bit    Registers := 12    
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 11    
+	  16 Input     32 Bit        Muxes := 11    
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module KeyExpansion 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 40    
+	   2 Input      8 Bit         XORs := 10    
+Module AddRoundKey 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      8 Bit         XORs := 16    
+Module MixColumns 
+Detailed RTL Component Info : 
++---XORs : 
+	   4 Input      8 Bit         XORs := 16    
+Module AES128_IP_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 12    
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 11    
+	  16 Input     32 Bit        Muxes := 11    
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design AddRoundKey has unconnected port clk
+WARNING: [Synth 8-3331] design SubBytes has unconnected port clk
+WARNING: [Synth 8-3331] design MixColumns has unconnected port clk
+WARNING: [Synth 8-3331] design KeyExpansion has unconnected port clk
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design AES128_IP_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\U0/AES128_IP_v1_0_S00_AXI_inst/aw_en_reg )
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'U0/AES128_IP_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/AES128_IP_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'U0/AES128_IP_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/AES128_IP_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][0][7]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][0][6]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][0][5]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][0][4]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][0][3]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][0][2]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][0][1]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][0][0]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][1][7]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][1][6]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][1][5]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][1][4]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][1][3]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][1][2]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][1][1]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][1][0]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][2][7]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][2][6]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][2][5]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][2][4]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][2][3]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][2][2]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][2][1]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][2][0]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][3][7]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][3][6]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][3][5]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][3][4]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][3][3]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][3][2]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][3][1]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[0][3][0]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][0][7]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][0][6]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][0][5]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][0][4]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][0][3]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][0][2]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][0][1]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][0][0]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][1][7]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][1][6]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][1][5]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][1][4]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][1][3]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][1][2]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][1][1]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][1][0]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][2][7]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][2][6]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][2][5]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][2][4]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][2][3]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][2][2]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][2][1]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][2][0]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][3][7]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][3][6]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][3][5]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][3][4]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][3][3]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][3][2]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][3][1]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[1][3][0]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][0][7]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][0][6]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][0][5]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][0][4]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][0][3]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][0][2]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][0][1]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][0][0]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][1][7]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][1][6]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][1][5]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][1][4]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][1][3]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][1][2]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][1][1]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][1][0]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][2][7]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][2][6]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][2][5]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][2][4]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][2][3]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][2][2]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][2][1]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][2][0]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][3][7]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][3][6]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][3][5]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][3][4]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][3][3]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][3][2]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][3][1]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[2][3][0]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[3][0][7]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[3][0][6]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[3][0][5]) is unused and will be removed from module AES.
+WARNING: [Synth 8-3332] Sequential element (vec_to_mat/out_mat_reg[3][0][4]) is unused and will be removed from module AES.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][2][5]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][2][5]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][2][4]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][2][4]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][2][3]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][2][3]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][2][2]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][2][2]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][2][1]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][2][1]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][2][0]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][2][0]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][0][5]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][0][5]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][0][4]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][0][4]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][0][3]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][0][3]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][0][2]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][0][2]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][0][1]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][0][1]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][0][0]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][0][0]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][0][5]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][0][5]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][0][4]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][0][4]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][0][3]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][0][3]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][0][2]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][0][2]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][0][1]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][0][1]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][0][0]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][0][0]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][1][5]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][1][5]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][1][4]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][1][4]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][1][3]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][1][3]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][1][2]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][1][2]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][1][1]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][1][1]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][1][0]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][1][0]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][3][5]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][3][5]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][3][4]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][3][4]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][3][3]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][3][3]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][3][2]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][3][2]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][3][1]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][3][1]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][3][0]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][3][0]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][3][5]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][3][5]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][3][4]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][3][4]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][3][3]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][3][3]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][3][2]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][3][2]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][3][1]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][3][1]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][3][0]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][3][0]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][2][5]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][2][5]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][2][4]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][2][4]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][2][3]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][2][3]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][2][2]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][2][2]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][2][1]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][2][1]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][2][0]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][2][0]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][1][5]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][1][5]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][1][4]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][1][4]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][1][3]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][1][3]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][1][2]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][1][2]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][1][1]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][1][1]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][1][0]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][1][0]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][3][5]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][3][5]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][3][4]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][3][4]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][3][3]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][3][3]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][3][2]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][3][2]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][3][1]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][3][1]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][3][0]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][3][0]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][2][5]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][2][5]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][2][4]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][2][4]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][2][3]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][2][3]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][2][2]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][2][2]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][2][1]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][2][1]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][2][0]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][2][0]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][1][5]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][1][5]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][1][4]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][1][4]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][1][3]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][1][3]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][1][2]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][1][2]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][1][1]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][1][1]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[0][1][0]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[0][1][0]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][0][5]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][0][5]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][0][4]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][0][4]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][0][3]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][0][3]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][0][2]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][0][2]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][0][1]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][0][1]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][0][0]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][0][0]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][2][5]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][2][5]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][2][4]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][2][4]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][2][3]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][2][3]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][2][2]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][2][2]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][2][1]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][2][1]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[3][2][0]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[3][2][0]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][1][5]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][1][5]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][1][4]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][1][4]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][1][3]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][1][3]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][1][2]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][1][2]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][1][1]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][1][1]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][1][0]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][1][0]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][0][5]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][0][5]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][0][4]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][0][4]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][0][3]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][0][3]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][0][2]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][0][2]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][0][1]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][0][1]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[2][0][0]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[2][0][0]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][3][5]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][3][5]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][3][4]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][3][4]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][3][3]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][3][3]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][3][2]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][3][2]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][3][1]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][3][1]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][3][0]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][3][0]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][2][6]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][2][6]'
+INFO: [Synth 8-3886] merging instance 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/out_state_reg[1][2][7]' (LD) to 'U0/AES128_IP_v1_0_S00_AXI_inst/AESAlg/MixColumnsR1/mixed_mat_reg[1][2][7]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:56 ; elapsed = 00:02:11 . Memory (MB): peak = 1013.355 ; gain = 686.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-------------+--------------+---------------+----------------+
+|Module Name  | RTL Object   | Depth x Width | Implemented As | 
++-------------+--------------+---------------+----------------+
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|KeyExpansion | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx2[0]     | 256x8         | LUT            | 
+|MixColumns   | LUTx3[0]     | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
+|SubBytes     | SubBoxMem[0] | 256x8         | LUT            | 
++-------------+--------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:09 ; elapsed = 00:02:24 . Memory (MB): peak = 1013.355 ; gain = 686.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:12 ; elapsed = 00:02:27 . Memory (MB): peak = 1013.355 ; gain = 686.793
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:20 ; elapsed = 00:02:35 . Memory (MB): peak = 1104.570 ; gain = 778.008
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:23 ; elapsed = 00:02:38 . Memory (MB): peak = 1104.570 ; gain = 778.008
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:23 ; elapsed = 00:02:38 . Memory (MB): peak = 1104.570 ; gain = 778.008
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:25 ; elapsed = 00:02:40 . Memory (MB): peak = 1104.570 ; gain = 778.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:44 ; elapsed = 00:03:00 . Memory (MB): peak = 1104.570 ; gain = 778.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:44 ; elapsed = 00:03:00 . Memory (MB): peak = 1104.570 ; gain = 778.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:44 ; elapsed = 00:03:01 . Memory (MB): peak = 1104.570 ; gain = 778.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     1|
+|2     |LUT2  |   303|
+|3     |LUT3  |   186|
+|4     |LUT4  |   596|
+|5     |LUT5  |   792|
+|6     |LUT6  |  7733|
+|7     |MUXF7 |  3092|
+|8     |MUXF8 |  1336|
+|9     |FDRE  |   393|
+|10    |FDSE  |     4|
++------+------+------+
+
+Report Instance Areas: 
++------+--------------------------------+-----------------------+------+
+|      |Instance                        |Module                 |Cells |
++------+--------------------------------+-----------------------+------+
+|1     |top                             |                       | 14436|
+|2     |  U0                            |AES128_IP_v1_0         | 14436|
+|3     |    AES128_IP_v1_0_S00_AXI_inst |AES128_IP_v1_0_S00_AXI | 14433|
+|4     |      AESAlg                    |AES                    |  4400|
+|5     |        BytesSubstitutionR1     |SubBytes               |   384|
+|6     |        BytesSubstitutionR10    |SubBytes_0             |   384|
+|7     |        BytesSubstitutionR2     |SubBytes_1             |   384|
+|8     |        BytesSubstitutionR3     |SubBytes_2             |   384|
+|9     |        BytesSubstitutionR4     |SubBytes_3             |   384|
+|10    |        BytesSubstitutionR5     |SubBytes_4             |   384|
+|11    |        BytesSubstitutionR6     |SubBytes_5             |   384|
+|12    |        BytesSubstitutionR7     |SubBytes_6             |   384|
+|13    |        BytesSubstitutionR8     |SubBytes_7             |   384|
+|14    |        BytesSubstitutionR9     |SubBytes_8             |   384|
+|15    |        KeyExpansion            |KeyExpansion           |   560|
++------+--------------------------------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:44 ; elapsed = 00:03:01 . Memory (MB): peak = 1104.570 ; gain = 778.008
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 10685 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:23 ; elapsed = 00:02:51 . Memory (MB): peak = 1104.570 ; gain = 435.672
+Synthesis Optimization Complete : Time (s): cpu = 00:02:45 ; elapsed = 00:03:01 . Memory (MB): peak = 1104.570 ; gain = 778.008
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 4428 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+144 Infos, 287 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:53 ; elapsed = 00:03:12 . Memory (MB): peak = 1104.570 ; gain = 789.480
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.runs/design_1_AES128_IP_0_0_synth_1/design_1_AES128_IP_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1104.570 ; gain = 0.000
+write_vhdl: Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 1104.570 ; gain = 0.000
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP c:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.srcs/sources_1/bd/design_1/ip/design_1_AES128_IP_0_0/design_1_AES128_IP_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 14 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.runs/design_1_AES128_IP_0_0_synth_1/design_1_AES128_IP_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1104.570 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file design_1_AES128_IP_0_0_utilization_synth.rpt -pb design_1_AES128_IP_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.143 . Memory (MB): peak = 1104.570 ; gain = 0.000
+write_vhdl: Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1104.570 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed May 30 00:45:21 2018...

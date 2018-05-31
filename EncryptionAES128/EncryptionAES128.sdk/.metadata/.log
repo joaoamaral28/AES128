@@ -1,0 +1,1960 @@
+!SESSION 2018-05-30 21:36:41.630 -----------------------------------------------
+eclipse.buildId=2017.4
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_PT
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk
+
+This is a continuation of log file C:\Users\Utilizador\VivadoProjects\EncryptionAES128\EncryptionAES128.sdk\.metadata\.bak_0.log
+Created Time: 2018-05-31 00:29:19.506
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:29:19.517
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:29:19.532
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:29:19.547
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:29:19.562
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:29:19.572
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:29:19.584
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:30:06.545
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:30:06.566
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:30:06.580
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:30:06.597
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:30:06.611
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:30:06.630
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:49:02.178
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:49:02.193
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:49:02.203
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:49:02.221
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:49:02.234
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:49:02.251
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:58:13.581
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:58:13.600
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:58:13.612
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:58:13.628
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:58:13.639
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 00:58:13.653
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:00:03.049
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:00:03.071
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:00:03.081
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:00:03.096
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:00:03.107
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:00:03.121
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:00:11.147
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:00:11.162
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:00:11.173
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:00:11.187
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:00:11.197
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:00:11.210
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:00:44.264
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:00:44.282
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:00:44.292
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:00:44.312
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:00:44.322
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:00:44.336
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:01:31.506
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:01:31.523
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:01:31.533
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:01:31.549
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:01:31.559
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:01:31.576
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:02:37.151
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:02:37.172
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:02:37.186
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:02:37.207
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:02:37.222
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:02:37.239
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:02:52.585
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:02:52.600
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:02:52.610
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:02:52.625
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:02:52.634
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:02:52.647
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:05:12.976
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:05:12.992
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:05:13.002
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:05:13.017
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:05:13.026
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:05:13.039
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:05:51.853
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:05:51.875
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:05:51.886
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:05:51.902
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:05:51.912
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:05:51.923
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:06:10.747
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:06:10.763
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:06:10.774
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:06:10.791
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:06:10.805
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:06:10.822
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:07:21.120
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:07:21.138
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:07:21.151
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:07:21.168
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:07:21.180
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:07:21.195
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:08:47.770
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:08:47.786
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:08:47.797
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:08:47.812
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:08:47.822
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:08:47.838
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:10:44.157
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:10:44.181
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:10:44.194
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:10:44.214
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:10:44.231
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:10:44.251
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:11:08.582
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:11:08.598
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:11:08.609
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:11:08.624
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:11:08.640
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:11:08.652
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:11:29.394
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:11:29.410
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:11:29.420
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:11:29.435
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:11:29.445
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 01:11:29.457
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+!SESSION 2018-05-31 12:46:24.686 -----------------------------------------------
+eclipse.buildId=2017.4
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_PT
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk
+
+!ENTRY org.eclipse.ui 2 0 2018-05-31 12:46:42.092
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-31 12:46:42.092
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2018-05-31 12:46:43.583
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-31 12:46:43.583
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:46:57.769
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:46:57.784
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:46:57.806
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:46:57.828
+!MESSAGE XSCT Command: [setws C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk], Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:02.736
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:02.744
+!MESSAGE XSCT command with result: [setws C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk], Result: [null, ]. Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:02.789
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:05.949
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:26.350
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:26.362
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, {"microblaze_0": "design_1_i/microblaze_0:design_1_i/microblaze_0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:26.370
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:26.383
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"AES128_IP_0": {"hier_name": "AES128_IP_0",
+"type": "AES128_IP",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "5.4",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "10.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:26.503
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:26.513
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "7a100t",
+"family": "artix7",
+"timestamp": "Wed May 30 00:40:47 2018",
+"vivado_version": "2017.4",
+"part": "xc7a100tcsg324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:28.516
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:28.532
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:28.616
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:28.645
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:28.666
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_BASE_VECTORS], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:28.699
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_BASE_VECTORS], Result: [null, 0x0000000000000000]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:49.467
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:51.265
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:51.280
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:52.632
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274505233A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:52.647
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:52.666
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274505233A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:52.675
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274505233A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:52.717
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274505233A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:52.727
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505233A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:53.508
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505233A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:53.517
+!MESSAGE XSCT Command: [fpga -file C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/download.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:55.753
+!MESSAGE XSCT command with result: [fpga -file C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/download.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:56.571
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:47:56.593
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:48:42.613
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:48:42.643
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:48:42.652
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:48:42.665
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:48:42.674
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:48:42.688
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.debug.ui 4 0 2018-05-31 12:48:43.845
+!MESSAGE Launch shortcut 'com.xilinx.sdk.launch.remote.shortcut' enablement expression caused exception. Shortcut was removed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.jdt.launching.isContainer to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:160)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:281)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction.isApplicable(ContextualLaunchAction.java:287)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction.fillMenu(ContextualLaunchAction.java:218)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction$1.menuShown(ContextualLaunchAction.java:141)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:802)
+	at org.eclipse.jface.action.ActionContributionItem.copyMenu(ActionContributionItem.java:1243)
+	at org.eclipse.jface.action.ActionContributionItem.handleShowProxy(ActionContributionItem.java:1223)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$7(ActionContributionItem.java:1186)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5152)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4820)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5102)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:262)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4269)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3810)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2018-05-31 12:48:43.850
+!MESSAGE No property tester contributes a property org.eclipse.jdt.launching.isContainer to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:49:29.230
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:49:29.245
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:49:29.255
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:49:29.269
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:49:29.279
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:49:29.289
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:49:58.268
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:49:58.282
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:49:58.289
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:49:58.300
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:49:58.307
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:49:58.315
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:50:34.138
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:50:34.149
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:50:34.158
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:50:34.170
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:50:34.177
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:50:34.187
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:51:09.171
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:51:09.180
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:51:09.186
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:51:09.195
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:51:09.201
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:51:09.210
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:51:36.983
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:51:36.997
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:51:37.007
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:51:37.017
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:51:37.023
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:51:37.031
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:51:57.714
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:51:57.728
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:51:57.736
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:51:57.749
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:51:57.756
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:51:57.765
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:52:19.412
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:52:19.421
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:52:19.427
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:52:19.435
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:52:19.441
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:52:19.448
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:52:38.513
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:52:38.528
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:52:38.536
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:52:38.546
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:52:38.554
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:52:38.562
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:53:01.071
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:53:01.082
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:53:01.088
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:53:01.098
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:53:01.104
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:53:01.111
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:55:39.416
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:55:39.426
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:55:39.433
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:55:39.442
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:55:39.448
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:55:39.457
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:56:50.575
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:56:50.585
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:56:50.592
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:56:50.601
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:56:50.607
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:56:50.614
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:57:38.201
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:57:38.211
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:57:38.221
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:57:38.235
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:57:38.242
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:57:38.251
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:58:11.385
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:58:11.398
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:58:11.408
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:58:11.419
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:58:11.427
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:58:11.435
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:59:27.417
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:59:27.426
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:59:27.432
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:59:27.440
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:59:27.445
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 12:59:27.452
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:07:23.636
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:07:23.646
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:07:23.652
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:07:23.662
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:07:23.667
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:07:23.675
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:08:06.541
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:08:06.554
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:08:06.561
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:08:06.571
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:08:06.578
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:08:06.587
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:08:49.278
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:08:49.287
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:08:49.293
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:08:49.316
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:08:49.322
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:08:49.329
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:10:53.684
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:10:53.693
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:10:53.698
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:10:53.707
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:10:53.713
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:10:53.719
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.ui 4 0 2018-05-31 13:11:06.846
+!MESSAGE Error in CDT UI during reconcile
+!STACK 1
+C Model Exception: C Model Status [Element Encryption.c does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:484)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:573)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:362)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2018-05-31 13:11:06.847
+!MESSAGE Element Encryption.c does not exist.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:11:44.033
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:11:44.044
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:11:44.050
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:11:44.064
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:11:44.070
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:11:44.081
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:12:22.218
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:12:22.228
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:12:22.235
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:12:22.244
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:12:22.250
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:12:22.257
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:12:46.184
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:12:46.193
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:12:46.199
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:12:46.221
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:12:46.228
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:12:46.235
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:14:39.550
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:14:39.561
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:14:39.567
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:14:39.575
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:14:39.581
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:14:39.588
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:15:02.020
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:15:02.029
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:15:02.036
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:15:02.045
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:15:02.051
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:15:02.058
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:15:23.272
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:15:23.281
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:15:23.287
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:15:23.300
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:15:23.306
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:15:23.313
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:15:46.974
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:15:46.983
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:15:46.989
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:15:46.998
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:15:47.004
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:15:47.012
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:17:48.775
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:17:48.785
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:17:48.791
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:17:48.800
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:17:48.806
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:17:48.814
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:18:11.422
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:18:11.433
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:18:11.439
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:18:11.456
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:18:11.462
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:18:11.469
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:18:35.655
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:18:35.665
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:18:35.673
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:18:35.681
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:18:35.687
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:18:35.695
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:18:52.389
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:18:52.398
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:18:52.404
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:18:52.414
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:18:52.420
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:18:52.426
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:19:07.551
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:19:07.559
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:19:07.565
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:19:07.573
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:19:07.579
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:19:07.586
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:19:23.642
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:19:23.651
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:19:23.657
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:19:23.665
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:19:23.671
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:19:23.679
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:19:46.929
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:19:46.938
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:19:46.944
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:19:46.953
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:19:46.959
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:19:46.967
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:20:03.598
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:20:03.607
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:20:03.614
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:20:03.623
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:20:03.629
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:20:03.637
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:20:23.568
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:20:23.576
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:20:23.582
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:20:23.596
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:20:23.602
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:20:23.609
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:20:49.267
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:20:49.276
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:20:49.282
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:20:49.291
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:20:49.297
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:20:49.304
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:05.308
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:05.319
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:05.325
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:05.347
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:05.356
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:05.364
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:24.429
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:24.438
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:24.444
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:24.453
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:24.459
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:24.466
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:38.533
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:38.542
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:38.548
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:38.556
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:38.562
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:38.569
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:50.747
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:50.755
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:50.761
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:50.771
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:50.777
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:21:50.784
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:22:11.967
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:22:11.976
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:22:11.981
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:22:11.989
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:22:11.995
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 13:22:12.002
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+!SESSION 2018-05-31 18:00:46.160 -----------------------------------------------
+eclipse.buildId=2017.4
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_PT
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk
+
+!ENTRY org.eclipse.ui 2 0 2018-05-31 18:01:08.247
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-31 18:01:08.248
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2018-05-31 18:01:10.655
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-31 18:01:10.655
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:01:26.998
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:01:27.004
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:01:27.015
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:01:27.023
+!MESSAGE XSCT Command: [setws C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:01:30.074
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:01:30.081
+!MESSAGE XSCT command with result: [setws C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk], Result: [null, ]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:01:30.114
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:01:32.594
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:11.970
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:11.985
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, {"microblaze_0": "design_1_i/microblaze_0:design_1_i/microblaze_0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:12.001
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:12.019
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"AES128_IP_0": {"hier_name": "AES128_IP_0",
+"type": "AES128_IP",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "5.4",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "10.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:12.110
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:12.122
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "7a100t",
+"family": "artix7",
+"timestamp": "Wed May 30 00:40:47 2018",
+"vivado_version": "2017.4",
+"part": "xc7a100tcsg324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:13.862
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:13.878
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:13.920
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:13.951
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:13.971
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_BASE_VECTORS], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:13.996
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_BASE_VECTORS], Result: [null, 0x0000000000000000]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:40.205
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:41.433
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:41.442
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:42.631
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274505233A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:42.639
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:42.653
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274505233A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:42.659
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274505233A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:42.687
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274505233A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:42.695
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505233A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:42.979
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505233A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:42.984
+!MESSAGE XSCT Command: [fpga -file C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/download.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:45.212
+!MESSAGE XSCT command with result: [fpga -file C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/download.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:46.019
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:03:46.027
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:07:58.227
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:07:58.253
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:07:58.265
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:07:58.285
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:07:58.295
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:07:58.309
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.debug.ui 4 0 2018-05-31 18:07:59.388
+!MESSAGE Launch shortcut 'com.xilinx.sdk.launch.remote.shortcut' enablement expression caused exception. Shortcut was removed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.jdt.launching.isContainer to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:160)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:281)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction.isApplicable(ContextualLaunchAction.java:287)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction.fillMenu(ContextualLaunchAction.java:218)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction$1.menuShown(ContextualLaunchAction.java:141)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:802)
+	at org.eclipse.jface.action.ActionContributionItem.copyMenu(ActionContributionItem.java:1243)
+	at org.eclipse.jface.action.ActionContributionItem.handleShowProxy(ActionContributionItem.java:1223)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$7(ActionContributionItem.java:1186)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5152)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4820)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5102)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:262)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4269)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3810)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2018-05-31 18:07:59.391
+!MESSAGE No property tester contributes a property org.eclipse.jdt.launching.isContainer to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:08:48.431
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:08:48.450
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:08:48.465
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:08:48.482
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:08:48.497
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:08:48.513
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:13:39.428
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:13:39.444
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:13:39.457
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:13:39.474
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:13:39.482
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:13:39.496
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:14:27.224
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:14:27.241
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:14:27.250
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:14:27.261
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:14:27.267
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:14:27.274
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:21:43.932
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:21:43.943
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:21:43.952
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:21:43.962
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:21:43.968
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:21:43.977
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:22:41.952
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:22:41.963
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:22:41.970
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:22:41.988
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:22:41.998
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:22:42.005
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:23:02.865
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:23:02.882
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:23:02.895
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:23:02.909
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:23:02.916
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:23:02.929
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:23:17.559
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:23:17.572
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:23:17.582
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:23:17.593
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:23:17.600
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:23:17.608
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:25:16.250
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:25:16.262
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:25:16.268
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:25:16.277
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:25:16.283
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-05-31 18:25:16.292
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Utilizador/VivadoProjects/EncryptionAES128/EncryptionAES128.sdk/AESEncryption_bsp/system.mss], Result: [null, ]. Thread: main
